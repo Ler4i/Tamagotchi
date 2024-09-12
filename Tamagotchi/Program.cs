@@ -29,21 +29,19 @@ while (true)
 
 if(num == "1")
 {
-    //Console.WriteLine("Придумайте имя для вашей кошечки или котика: ");
+    Console.WriteLine("Придумайте имя для вашей кошечки или котика: ");
     Cat cat = new Cat();
-    /*cat.Name = Console.ReadLine();
+    cat.Name = Console.ReadLine();
     string NameCat = cat.Name;
     Console.WriteLine("Вашего питомца зовут: " + NameCat);
     Console.WriteLine("И так, у вашего питомца есть 4 базовые потребности: \n 1)бодрость = " + cat.LevelVivacity + 
         "\n 2)радость = " + cat.LevelJoy + "\n 3)голод = " + cat.LevelHunger + "\n 4)ласка = " + cat.LevelOfAffection);
-    Console.WriteLine("Изначально все они равны 100, но с течением времени они будут уменьшаться! А вы сможете повышать их.");*/
+    Console.WriteLine("Изначально все они равны 100, но с течением времени они будут уменьшаться! А вы сможете повышать их.");
 
     Console.WriteLine("По истечении определенного времени будет выводиться промежуточный результат " +
         "пока что это 5 секунд, чтобы видеть результат");
     cat.ReducingNeeds();
     
-   /* Console.WriteLine("1)бодрость = " + cat.LevelVivacity +
-        "\n 2)радость = " + cat.LevelJoy + "\n 3)голод = " + cat.LevelHunger + "\n 4)ласка = " + cat.LevelOfAffection);    */
 
 }
 
